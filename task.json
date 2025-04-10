@@ -1,16 +1,17 @@
 {
   "models": [
-    {
-      "name": "O3 MINI HIGH  22pt",
-      "correct_ratio": "1/16",
-      "accuracy_percentage": 6.2,
-      "rank": 2
-    },
+    
     {
       "name": "GROK 3 think 38PT",
       "correct_ratio": "3/16",
       "accuracy_percentage": 18.7,
       "rank": 1
+    },
+    {
+      "name": "O3 MINI HIGH  22pt",
+      "correct_ratio": "1/16",
+      "accuracy_percentage": 6.2,
+      "rank": 2
     },
     {
       "name": "GEMINI 2.5 pro 5pt",
