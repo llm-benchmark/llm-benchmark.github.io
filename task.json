@@ -1,25 +1,27 @@
 {
   "models": [
+     {
+      "name": "gemini 3 pro pre 115pt",
+      "correct_ratio": "10/16",
+      "accuracy_percentage": 62.5,
+      "rank": 1
+    },
+    {
+      "name": "gpt 5 pro 100pt ",
+      "correct_ratio": "9/16",
+      "accuracy_percentage": 56.2,
+      "rank": 2
+ 
+    },
     {
      "name": "GROK 4 80 PT",
       "correct_ratio": "7/16",
       "accuracy_percentage": 43.7,
-      "rank": 1
+      "rank": 3
       
     },
-    {
-      "name": "GROK 3 think 38PT",
-      "correct_ratio": "3/16",
-      "accuracy_percentage": 18.7,
-      "rank": 3
-    },
-    {
-      "name": "o4 mini high 42pt",
-      "correct_ratio": "3/16",
-      "accuracy_percentage": 19.0,
-      "rank": 2
  
-    },
+     
     {
       "name": "o3 high 35pt",
       "correct_ratio": "3/16",
@@ -961,3 +963,4 @@
     }
   ]
 }
+
