@@ -1,6 +1,6 @@
 {
   "models": [
-     {
+    {
       "name": "gemini 3 pro pre 115pt",
       "correct_ratio": "10/16",
       "accuracy_percentage": 62.5,
@@ -11,17 +11,13 @@
       "correct_ratio": "9/16",
       "accuracy_percentage": 56.2,
       "rank": 2
- 
     },
     {
-     "name": "GROK 4 80 PT",
+      "name": "GROK 4 80 PT",
       "correct_ratio": "7/16",
       "accuracy_percentage": 43.7,
       "rank": 3
-      
     },
- 
-     
     {
       "name": "o3 high 35pt",
       "correct_ratio": "3/16",
@@ -33,14 +29,12 @@
       "correct_ratio": "1/16",
       "accuracy_percentage": 6.2,
       "rank": 5
-   
     },
     {
       "name": "GEMINI 2.5 pro 5pt",
       "correct_ratio": "0/16",
       "accuracy_percentage": 0.0,
       "rank": 7
-   
     },
     {
       "name": "DeepSeek R1 0520 20pt",
@@ -53,14 +47,12 @@
       "correct_ratio": "0/16",
       "accuracy_percentage": 0.0,
       "rank": 8
- 
     },
     {
       "name": "claude 4 opus think",
       "correct_ratio": "0",
       "accuracy_percentage": 3.0,
       "rank": 9
-     
     }
   ],
   "evaluation_criteria": {
@@ -654,7 +646,7 @@
       "name": "forg jump",
       "difficulty": 2.0,
       "short_description": "Initial state: The frog is randomly located in one of the 100 squares...",
-      "full_description": "Initial state: The frog is randomly located in one of the 100 squares.\n\nInformation acquisition (one time): You choose a non-zero difference n. The program will tell you two positions p and q, which are n squares apart (|p-q| = n), and the frog must be in one of p or q.\n\nAt the beginning of each round: The frog will randomly jump forward or backward one square.\n\nThen\nYour action (each round): You can choose a and b (1 ≤ a < b ≤ 100) to ask whether the frog is in the range (a, b). // does not include a, b\nlike (3, 6) Query 4 5\n\nThe program answers your query.\n\nGuessing opportunity (only once): After any question and information is obtained, you can immediately identify the frog's position.\n\nQuestion: Is there a difference n that makes it impossible for you to guarantee a win?\n\nIf not, explain your reason\nIf yes, what n are there",
+      "full_description": "Initial state: The frog is randomly located in one of the 100 squares.\n\nInformation acquisition (one time): You choose a non-zero difference n. The program will tell you two positions p and q, which are n squares apart (|p-q| = n), and the frog must be in one of p or q.\n\nAt the beginning of each round: The frog will randomly jump forward or backward one square.\n\nThen\nYour action (each round): You can choose a and b (1 ≤ a < b ≤ 100) to ask whether the frog is in the range (a, b). // does not include a, b\nlike (3, 6) Query 4 5\n\nThe program answers your query.\n\nGuessing opportunity (only once): After any question and information is obtained, you can immediately identify the frog's position.\n\nQuestion: Is there a difference n such that you cannot specify a fixed number of moves \nK,K within which a win is guaranteed?\n\nIf not, explain your reason\nIf yes, what n are there",
       "answers": [
         {
           "model": "o3 mini high",
@@ -963,4 +955,3 @@
     }
   ]
 }
-
